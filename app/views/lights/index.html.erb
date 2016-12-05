@@ -1,10 +1,55 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" content="text/html" http-equiv="Content-Type">
-    <title>Christmas</title>
-  </head>
-  <body>
-    <input id="btn_post" type="button" value="Start Christmas">
-  </body>
+<!doctype html>
+<html lang="nl">
+    <head>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Driving Home For Christmas</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Microdata -->
+        <meta property="place:location:latitude" content="52.37104" />
+        <meta property="place:location:longitude" content="6.75513" />
+
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="/assets/favicon/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="/assets/favicon/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="/assets/favicon/manifest.json">
+        <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#000000">
+        <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+        <meta name="apple-mobile-web-app-title" content="Nerds &amp; Company">
+        <meta name="application-name" content="Nerds &amp; Company">
+        <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <div class="container">
+          <div class="top-bar"></div>
+
+          <div id="snow-container"></div>
+
+          <div class="background"></div>
+          <div class="video">
+            <video autoplay loop muted>
+              <source src="/assets/background.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="spiegel car-animated">
+            <img src="/assets/spiegel.png" alt="Spiegel" />
+          </div>
+          <div class="dashboard car-animated">
+            <img src="/assets/dashboard.png" alt="Dashboard" />
+          </div>
+
+          <div class="button-container car-animated">
+            <a href="#"><img src="/assets/play.png" alt="Button" id="btn_post"></a>
+          </div>
+        </div>
+
+        <!-- JavaScript -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+        <script type="text/javascript">
+          $('#snow-container').snowfall({image :"/assets/snowflake.png", minSize: 1, maxSize:10, flakeCount : 100});
+        </script>
+    </body>
 </html>

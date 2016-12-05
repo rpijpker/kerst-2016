@@ -1,0 +1,22 @@
+{:uriI"ˆfile://app/assets/images/favicon/manifest.json?type=application/json&id=25a0d7c970d63e82ebac27003c970b723fdbe6f2088f40d38a2ebb9933b5bac8:ET:load_pathI"app/assets/images;T:filenameI",app/assets/images/favicon/manifest.json;T:	nameI"favicon/manifest;T:logical_pathI"favicon/manifest.json;T:content_typeI"application/json;T:sourceI"Y{
+	"name": "Nerds & Company",
+	"icons": [
+		{
+			"src": "\/assets\/images\/favicon\/android-chrome-192x192.png",
+			"sizes": "192x192",
+			"type": "image\/png"
+		},
+		{
+			"src": "\/assets\/images\/favicon\/android-chrome-512x512.png",
+			"sizes": "512x512",
+			"type": "image\/png"
+		}
+	],
+	"theme_color": "#ffffff",
+	"display": "standalone"
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI":file-digest://app/assets/images/favicon/manifest.json;TTF:charsetI"
+utf-8;F:digest"%áµÆ3x¥ÒiU;±ù™ø¶z-<ÿ—•ÉìáýT`:lengthiY:dependencies_digest"%äuÏ\ŸÑpýZ p†ð!>””­{˜	°·t2û’Ÿ¤:idI"E25a0d7c970d63e82ebac27003c970b723fdbe6f2088f40d38a2ebb9933b5bac8;F:
+mtimel+øú@X
