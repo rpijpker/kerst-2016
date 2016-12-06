@@ -42,12 +42,10 @@
           </div>
 
           <div class="button-container car-animated">
-            <a href="#"><img src="/assets/play.png" alt="Button" id="btn_post"></a>
+            <%= link_to '<img src="/assets/play.png" alt="Button">'.html_safe, lights_christmas_path, method: :post %>
           </div>
         </div>
 
-        <!-- JavaScript -->
-        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
         <script type="text/javascript">
           $('#snow-container').snowfall({image :"/assets/snowflake.png", minSize: 1, maxSize:10, flakeCount : 100});
         </script>
