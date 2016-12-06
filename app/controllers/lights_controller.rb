@@ -3,6 +3,7 @@ class LightsController < ApplicationController
   end
 
   def christmas
-    WebSocket::Client::Simple.connect 'http://d3a79446.ngrok.io'
+    puts 'hallo'
+    WebSocket::Client::Simple.connect 'ws://kerst-server.herokuapp.com:80'
   end
 end
