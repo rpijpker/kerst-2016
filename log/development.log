@@ -20015,3 +20015,926 @@ Completed 204 No Content in 545ms (ActiveRecord: 0.0ms)
   [1m[35m (14.1ms)[0m  [1m[35mCOMMIT[0m
   [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(4904759297114308590)[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 185.41.139.154 at 2016-12-06 14:53:17 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#index as HTML
+  Rendering lights/index.html.erb within layouts/application
+  Rendered lights/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 319ms (Views: 298.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 14:53:20 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"HwBA5hXeLYt2UpXI+JCCn6j6itWt/nRSFVT8yFCGkIUCKc2nu6IrQX72Ydev03dKE92xIA3Zg46CHHw6f82n6w=="}
+Completed 500 Internal Server Error in 525ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `disconnect' for #<WebSocket::Client::Simple::Client:0x007fd18987b380>
+Did you mean?  connect):
+  
+app/controllers/lights_controller.rb:8:in `christmas'
+  Rendering /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.2ms)
+  Rendering /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendering /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (77.4ms)
+Started GET "/" for 185.41.139.154 at 2016-12-06 14:53:43 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#index as HTML
+  Rendering lights/index.html.erb within layouts/application
+  Rendered lights/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 28ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 185.41.139.154 at 2016-12-06 14:53:52 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#index as HTML
+  Rendering lights/index.html.erb within layouts/application
+  Rendered lights/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 280ms (Views: 270.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 14:53:56 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"hs5UbMnmbTBsPXpNux+JQRudEDUZh6qRdvIO0LR177qb59ktZ5pr+mSZjlLsXHyUoLorwLmgXU3huo4imz7Y1A=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 151ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 185.41.139.154 at 2016-12-06 14:58:07 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#index as HTML
+  Rendering lights/index.html.erb within layouts/application
+  Rendered lights/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 135ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 185.41.139.154 at 2016-12-06 14:58:25 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#index as HTML
+  Rendering lights/index.html.erb within layouts/application
+  Rendered lights/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 555ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 185.41.139.154 at 2016-12-06 14:58:40 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#index as HTML
+  Rendering lights/index.html.erb within layouts/application
+  Rendered lights/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 29ms (Views: 26.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 14:58:46 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"raUj8VcVV9nLmdo1x2hekcp4nDeahU4jv7b+y2u+B+mwjK6w+WlRE8M9LiqQK6tEcV+nwjqiuf8o/n45RPUwhw=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 147ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 14:59:05 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"raUj8VcVV9nLmdo1x2hekcp4nDeahU4jv7b+y2u+B+mwjK6w+WlRE8M9LiqQK6tEcV+nwjqiuf8o/n45RPUwhw=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 140ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 185.41.139.154 at 2016-12-06 15:03:04 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#index as HTML
+  Rendering lights/index.html.erb within layouts/application
+  Rendered lights/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:03:35 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"BTVIlX8mUo7refsZdIO2wIoy+RTpo4waoi4vbb4cwsgYHMXU0VpUROPdDwYjwEMVMRXC4UmEe8Y1Zq+fkVf1pg=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 175ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 185.41.139.154 at 2016-12-06 15:04:04 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#index as HTML
+  Rendering lights/index.html.erb within layouts/application
+  Rendered lights/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 113ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:04:42 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"BLDte3PHlToqnMhHTgi7jTEIsqo8K9HUPzkzWcMm38QZmWA63buT8CI4PFgZS05Yii+JX5wMJgiocbOr7G3oqg=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 146ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 185.41.139.154 at 2016-12-06 15:05:38 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#index as HTML
+  Rendering lights/index.html.erb within layouts/application
+  Rendered lights/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:05:40 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"EdohptRQczGeX+434p++5rpoF4BnW2PsnpEuO/K3wLwM86zneix1+5b7Gii13EszAU8sdcd8lDAJ2a7J3fz30g=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 143ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 185.41.139.154 at 2016-12-06 15:06:20 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#index as HTML
+  Rendering lights/index.html.erb within layouts/application
+  Rendered lights/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:06:26 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"2qkbY4J3Xg7jv0cIy8UvuzshoRLa8G39codXtp2K7LXd+DsUQFkMQGjg3eObbmhvtL4SehIdTru7Aj7jM4U+Bw=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 143ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:06:32 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"2qkbY4J3Xg7jv0cIy8UvuzshoRLa8G39codXtp2K7LXd+DsUQFkMQGjg3eObbmhvtL4SehIdTru7Aj7jM4U+Bw=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 139ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:06:32 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"2qkbY4J3Xg7jv0cIy8UvuzshoRLa8G39codXtp2K7LXd+DsUQFkMQGjg3eObbmhvtL4SehIdTru7Aj7jM4U+Bw=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 140ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:06:32 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"2qkbY4J3Xg7jv0cIy8UvuzshoRLa8G39codXtp2K7LXd+DsUQFkMQGjg3eObbmhvtL4SehIdTru7Aj7jM4U+Bw=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 139ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:06:33 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"2qkbY4J3Xg7jv0cIy8UvuzshoRLa8G39codXtp2K7LXd+DsUQFkMQGjg3eObbmhvtL4SehIdTru7Aj7jM4U+Bw=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 140ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 185.41.139.154 at 2016-12-06 15:06:49 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#index as HTML
+  Rendering lights/index.html.erb within layouts/application
+  Rendered lights/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 185.41.139.154 at 2016-12-06 15:07:59 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#index as HTML
+  Rendering lights/index.html.erb within layouts/application
+  Rendered lights/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:08:01 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"otL78ZBmIMp/c2/Iz/BWmV3j6kKutq8fAThLotwsuCC/+3awPhomAHfXm9eYs6NM5sTRtw6RWMOWcMtQ82ePTg=="}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+app/controllers/lights_controller.rb:6:in `exit'
+app/controllers/lights_controller.rb:6:in `christmas'
+  Rendering /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (69.5ms)
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:08:12 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"otL78ZBmIMp/c2/Iz/BWmV3j6kKutq8fAThLotwsuCC/+3awPhomAHfXm9eYs6NM5sTRtw6RWMOWcMtQ82ePTg=="}
+Completed 500 Internal Server Error in 97ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+app/controllers/lights_controller.rb:7:in `exit'
+app/controllers/lights_controller.rb:7:in `christmas'
+  Rendering /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.1ms)
+  Rendering /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (54.2ms)
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:08:19 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"otL78ZBmIMp/c2/Iz/BWmV3j6kKutq8fAThLotwsuCC/+3awPhomAHfXm9eYs6NM5sTRtw6RWMOWcMtQ82ePTg=="}
+Completed 500 Internal Server Error in 92ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (private method `exit' called for #<WebSocket::Client::Simple::Client:0x007fe42c0702e8>
+Did you mean?  exit!
+               emit):
+  
+app/controllers/lights_controller.rb:7:in `christmas'
+  Rendering /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.8ms)
+  Rendering /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (54.7ms)
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:08:27 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"otL78ZBmIMp/c2/Iz/BWmV3j6kKutq8fAThLotwsuCC/+3awPhomAHfXm9eYs6NM5sTRtw6RWMOWcMtQ82ePTg=="}
+Completed 500 Internal Server Error in 98ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (private method `exit!' called for #<WebSocket::Client::Simple::Client:0x007fe42b873838>):
+  
+app/controllers/lights_controller.rb:7:in `christmas'
+  Rendering /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.8ms)
+  Rendering /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (55.3ms)
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:08:32 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"otL78ZBmIMp/c2/Iz/BWmV3j6kKutq8fAThLotwsuCC/+3awPhomAHfXm9eYs6NM5sTRtw6RWMOWcMtQ82ePTg=="}
+Completed 500 Internal Server Error in 92ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (private method `exit' called for #<WebSocket::Client::Simple::Client:0x007fe423714be8>
+Did you mean?  emit):
+  
+app/controllers/lights_controller.rb:7:in `christmas'
+  Rendering /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.8ms)
+  Rendering /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (55.1ms)
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:08:36 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"otL78ZBmIMp/c2/Iz/BWmV3j6kKutq8fAThLotwsuCC/+3awPhomAHfXm9eYs6NM5sTRtw6RWMOWcMtQ82ePTg=="}
+Completed 500 Internal Server Error in 105ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (private method `exit' called for #<WebSocket::Client::Simple::Client:0x007fe423fb2110>
+Did you mean?  exit!
+               emit):
+  
+app/controllers/lights_controller.rb:7:in `christmas'
+  Rendering /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/stagaire/.gem/ruby/2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (55.7ms)
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:08:41 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"otL78ZBmIMp/c2/Iz/BWmV3j6kKutq8fAThLotwsuCC/+3awPhomAHfXm9eYs6NM5sTRtw6RWMOWcMtQ82ePTg=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 137ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 185.41.139.154 at 2016-12-06 15:08:47 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#index as HTML
+  Rendering lights/index.html.erb within layouts/application
+  Rendered lights/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:15 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"qc74TMdZa1drmDl4XdlUmA50EOLFXgrcHWlTtSha0ziun9g7BXc5GeDHo5MNchNMgeujig2zKZrU7DrghlUBig=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 149ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 185.41.139.154 at 2016-12-06 15:12:17 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#index as HTML
+  Rendering lights/index.html.erb within layouts/application
+  Rendered lights/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:19 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 142ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:19 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 145ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:20 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:20 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 145ms (ActiveRecord: 0.0ms)
+
+
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 143ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:20 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 141ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:20 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 150ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:20 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 141ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:21 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 139ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:21 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 140ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:21 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 140ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:21 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 140ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:25 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 141ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:26 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 144ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:27 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 140ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:40 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 141ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:41 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 144ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:41 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 142ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:41 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 141ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:42 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 147ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:42 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 141ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:43 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 141ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:44 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 144ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:44 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 147ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:45 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 145ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:46 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 143ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:46 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 141ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:47 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 141ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:47 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 140ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:49 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 166ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:50 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 141ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:50 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 140ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:50 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 142ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:51 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 143ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:51 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 142ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:51 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 142ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:52 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 141ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:52 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 143ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:54 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 143ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:56 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 141ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:12:57 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 140ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:01 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 145ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:01 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 141ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:02 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 139ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:02 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 140ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:02 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 139ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:03 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 142ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:04 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 147ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:04 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 139ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:04 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 147ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:05 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 141ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:06 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 139ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:07 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 139ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:08 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 148ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:08 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 143ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:08 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 143ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:09 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 140ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:10 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 139ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:10 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 143ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:11 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 145ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:11 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 142ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:12 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 138ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:13 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 140ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:21 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 139ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:21 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 140ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:21 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 139ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:22 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 143ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:22 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 145ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:22 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 149ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/lights/christmas" for 185.41.139.154 at 2016-12-06 15:13:22 +0100
+Cannot render console from 185.41.139.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LightsController#christmas as HTML
+  Parameters: {"authenticity_token"=>"u6INOQqunn1V/HnALLdOE2XiFYeHBOt7TCJ81LY+7NO88y1OyIDMM96j4yt8HAnH6n2m70/pyD2FpxWBGDE+YQ=="}
+No template found for LightsController#christmas, rendering head :no_content
+Completed 204 No Content in 143ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-07 08:21:08 +0100
+Started GET "/" for ::1 at 2016-12-07 08:21:08 +0100
+Processing by LightsController#index as HTML
+Processing by LightsController#index as HTML
+  Rendering lights/index.html.erb within layouts/application
+  Rendering lights/index.html.erb within layouts/application
+  Rendered lights/index.html.erb within layouts/application (13.8ms)
+  Rendered lights/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 330ms (Views: 307.5ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 338ms (Views: 310.0ms | ActiveRecord: 0.0ms)
+
+
